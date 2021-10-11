@@ -1,6 +1,8 @@
 
 ### Setting Up Project
 
+# update the .env with the contents of the .env.example
+
 - composer install
 - npm install
 - php artisan migrate
