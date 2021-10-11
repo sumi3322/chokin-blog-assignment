@@ -19,7 +19,7 @@
         @if(Auth::user()->role == 2)
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-user"></i>
               <p>
                Users
                 <i class="right fas fa-angle-left"></i>
@@ -43,7 +43,7 @@
           @endif
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-sticky-note"></i>
               <p>
                Blogs
                 <i class="right fas fa-angle-left"></i>
@@ -67,7 +67,7 @@
           @if(Auth::user()->role == 2)
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-list-alt"></i>
               <p>
                Post Categories
                 <i class="right fas fa-angle-left"></i>
